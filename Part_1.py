@@ -181,6 +181,62 @@ elif d > 0:
 # Chapter 4. For and while loops
 
 
+#   https://stepik.org/lesson/265118/step/8?unit=246067
+# ver_1
+a = int(input())
+for i in range(a + 1):
+    print ('Квадрат числа', i, "равен", i ** 2)
+
+# ver_2
+for i in range(int(input())+1):
+    print(f'Квадрат числа {i} равен {i**2}')
+
+
+#   https://stepik.org/lesson/294243/step/15?thread=solutions&unit=275922
+# ver_1
+n, a, y = int(input()), 1, 0
+for i in range(n):
+    b=a
+    a=b+y
+    y=b
+    print(b, end=' ')
+
+# ver_2
+n, f1, f2 = int(input()), 1, 1
+
+for i in range(n):
+    print(f1, end=' ')
+    f1, f2 = f2, f1 + f2
+
+
+#
+# ver_1
+
+
+# ver_2
+
+
+#
+# ver_1
+
+
+# ver_2
+
+
+#
+# ver_1
+
+
+# ver_2
+
+
+#
+# ver_1
+
+
+# ver_2
+
+
 #
 # ver_1
 
